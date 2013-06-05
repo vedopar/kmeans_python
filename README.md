@@ -9,12 +9,22 @@ Since the scipy library contains standard api for kmeans algorithm<br/>
 This project compares the generated results to the results from <br/>
 scipy api.<br/>
 In addition the kmeans_map.py use matplotlib library to draw visible<br/>
-comparison of original map and the clustered map using kmeans algorithm.<br/><br/>
+comparison of original map and the clustered map using kmeans algorithm.<br/>
+<br/><br/>
+Explanation:<br/>
+E stands for values of means<br/>
+F stands for dimensions<br/>
+N stands for number of vertices<br/>
+K stands for number of centroids
+
+<br/><br/>
 
 Dependent Libs:<br/>
 python 2.7<br/>
 for kmeans-test.py : numpy & scipy<br/>
-for kmeans_map.py : matplotlib<br/>
+for kmeans_map.py : matplotlib<br/><br/>
+
+
 
 
 
